@@ -11,7 +11,6 @@ const loadProducts = async () => {
         console.log(data);
         const products = data.products.map(product => {
             const { _id: id, title, price, description, category } = product;
-            console.log(id);
             return `
                 <li>
                     <h3>${title}</h3>
