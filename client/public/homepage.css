@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-sticky {
+    display: flex;
+    background-color: #2A70D9;
+    color: white;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    background-color: #2F2F2F;
+    color: white;
+    justify-content: center;
+}
+
+.brand-logo {
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+}
