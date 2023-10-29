@@ -16,6 +16,9 @@
     background-color: #2A70D9;
     color: white;
     justify-content: center;
+
+    padding: 14px;
+    font-size: 15px;
 }
 
 nav {
@@ -23,10 +26,37 @@ nav {
     background-color: #2F2F2F;
     color: white;
     justify-content: center;
+    padding: 16px;
 }
 
 .brand-logo {
     font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 15px 0px 15px;
+}
+
+.nav-links:hover {
+    color: #a1a1a1;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.nav-icons i:hover {
+    color: red;
 }
 
 nav a {
