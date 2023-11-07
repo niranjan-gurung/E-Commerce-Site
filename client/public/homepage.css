@@ -36,7 +36,7 @@ a {
 }
 
 .brand-logo {
-  font-weight: bold;
+  font-weight: 800;
   font-size: 20px;
 }
 
@@ -81,14 +81,13 @@ a {
 }
 
 .img-container {
-  --img-padding: 360px;
+  --img-padding: 230px;
 
   /* background-color: #9984ae; */
   background-color: #8528e1;
   background-image: url("assets/PCs/hero-image.jpg");
   background-position: 0% 20%;
   /* background-blend-mode: multiply; */
-  color: white;
 
   padding-top: var(--img-padding);
   padding-bottom: var(--img-padding);
@@ -97,9 +96,46 @@ a {
 .hero-text {
   display: flex;
   flex-direction: column;
-  padding: 0px 320px;
+  padding: 20px 320px;
+  color: white;
+}
+
+.hero-text h1 {
+  width: 400px;
+  word-wrap: break-word;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.hero-text h1,
+p {
+  padding: 10px 0px;
 }
 
 .hero-text button {
-  max-width: 10%;
+  max-width: 20%;
+  margin: 10px 0px;
+  padding: 10px;
+
+  background-color: transparent;
+  font-size: 1.1rem;
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+
+  border: 2px solid white;
+  border-radius: 8px;
+  box-shadow: 0px 6px 8px 3px rgba(72, 66, 80, 0.5);
+  cursor: pointer;
+
+  transition: transform 0.2s;
+}
+
+.hero-text button:hover {
+  transform: scale(1.03);
 }
