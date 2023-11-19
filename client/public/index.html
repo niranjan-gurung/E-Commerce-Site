@@ -3,55 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" 
-      rel="stylesheet">
-    <link rel="stylesheet" href="homepage.css" />
+    <head-link-template></head-link-template>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/homepage.css" />
+    <link rel="stylesheet" href="styles/headerFooter.css" />
+    <script src="js/headerFooterTemplate.js" defer></script>
     <title>Home</title>
   </head>
   <body>
-    <header class="primary-header">
-      <div class="header-sticky">
-        <p>All ESR PCs are assembled in the UK.</p>
-      </div>
-      <nav class="primary-nav">
-        <ul class="nav-links">
-          <li><a class="brand-logo" href="/">ESR</a></li>
-          <li><a href="pc.html">Gaming PCs</a></li>
-          <li><a href="">Peripherals</a></li>
-          <li><a href="">Components</a></li>
-          <li><a href="">Support</a></li>
-        </ul>
-        <ul class="nav-icons">
-          <li>
-            <a href="/">
-              <i class="fa fa-magnifying-glass"></i>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <i class="fa fa-user"></i>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <i class="fa fa-cart-shopping"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      </div>
-    </header>
-
+    <header-template></header-template>
     <main>
       <div class="hero-img-container">
         <div class="hero-text">
@@ -69,15 +29,25 @@
       <div class="section-container">
         <section>
           <div class="review-container"></div>
-          <p>“Offering real-world performance data is a great idea, and makes the process of ordering a PC much less abstract for newcomers.”</p>
+          <p>
+            “Offering real-world performance data is a great idea, and makes the
+            process of ordering a PC much less abstract for newcomers.”
+          </p>
         </section>
         <section>
           <div class="review-container"></div>
-          <p>“There’s something lovely about having a PC that comes with a set of guaranteed predicted frames-per-second targets for the games I planned.”</p>
+          <p>
+            “There’s something lovely about having a PC that comes with a set of
+            guaranteed predicted frames-per-second targets for the games I
+            planned.”
+          </p>
         </section>
         <section>
           <div class="review-container"></div>
-          <p>“This is certainly a very neat idea, and the company is putting its money where its mouth is regarding the frame-rate estimations.”</p>
+          <p>
+            “This is certainly a very neat idea, and the company is putting its
+            money where its mouth is regarding the frame-rate estimations.”
+          </p>
         </section>
       </div>
     </section>
@@ -93,48 +63,6 @@
       <div class="peripheral-img"></div>
     </section>
 
-    <footer>
-      <div class="footer-container">
-        <section>
-          <ul class="social-links">
-            <li><a href="/"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-youtube fa-xl"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-github fa-xl"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-discord fa-xl"></i></a></li>
-          </ul>
-        </section>
-        <section class="contact">
-          <div>
-            <h3>CONTACT</h3>
-            <a href=""><p>Company</p></a>
-            <a href=""><p>Customer Support</p></a>
-          </div>
-          <div>
-            <h3>ABOUT ESR</h3>
-            <a href=""><p>Careers</p></a>
-            <a href=""><p>Customer Reviews</p></a>
-          </div>
-          <div>
-            <h3>COMMUNITY</h3>
-            <a href=""><p>Our Discord</p></a>
-            <a href=""><p>Newsroom & Blog</p></a>
-          </div>
-        </section>
-
-        <section class="cpy-policies">
-          <div class="copyright">
-            <small>ESR</small>
-            <small>©ESR Inc. 2023 All Rights Reserved</small>
-          </div>
-          <div class="policies">
-            <a href=""><small>Legal</small></a>
-            <a href=""><small>Private Policy</small></a>
-            <a href=""><small>Manage Preferences</small></a>
-          </div>
-        </section>
-      </div>
-    </footer>
+    <footer-template></footer-template>
   </body>
 </html>
