@@ -1,0 +1,28 @@
+.hero-img-container {
+  --img-padding: 290px;
+
+  background-color: #8528e1;
+  background-image: url("../assets/PCs/product-hero.jpg");
+  background-position: bottom;
+  background-size: cover;
+
+  padding-top: var(--img-padding);
+  padding-bottom: var(--img-padding);
+}
+
+.hero-text {
+  padding: 20px 320px;
+  color: white;
+
+  & h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 20px 0px;
+  }
+
+  & h3,
+  p {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+}
