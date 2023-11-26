@@ -12,7 +12,7 @@ class HeaderTemplate extends HTMLElement {
         <nav class="primary-nav">
           <ul class="nav-links">
             <li><a class="brand-logo" href="/">ESR</a></li>
-            <li><a href="gaming-pcs.html">Gaming PCs</a></li>
+            <li><a href="gaming-pcs">Gaming PCs</a></li>
             <li><a href="/">Peripherals</a></li>
             <li><a href="/">Components</a></li>
             <li><a href="/">Support</a></li>
